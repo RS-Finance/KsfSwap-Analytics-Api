@@ -1,0 +1,15 @@
+{
+  "name": "Kucoin Community Chain Blocks",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Kucoin Community Chain Blocks": {
+        "url": "https://info.kucoinswap.finance/subgraphs/name/rs-finance/kcc-block",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "KsfSwap",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "KsfSwap": {
+        "url": "https://info.kucoinswap.finance/subgraphs/name/ksfswap/ksfswap",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
