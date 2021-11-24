@@ -4,7 +4,7 @@ import fetch from "cross-fetch";
 export const blockClient = new ApolloClient({
   link: new HttpLink({
     fetch,
-    uri: "https://info.kucoinswap.finance/subgraphs/name/rs-finance/kcc-block",
+    uri: "https://thegraph.kcc.network/subgraphs/name/kcc-blocks",
   }),
   cache: new InMemoryCache(),
 });
