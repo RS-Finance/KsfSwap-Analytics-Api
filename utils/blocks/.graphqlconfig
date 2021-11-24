@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "Kucoin Community Chain Blocks": {
-        "url": "https://info.kucoinswap.finance/subgraphs/name/rs-finance/kcc-block",
+        "url": "http://info.kucoinswap.finance/subgraphs/name/ksfswap/ksfswap",
         "headers": {
           "user-agent": "JS GraphQL"
         },
